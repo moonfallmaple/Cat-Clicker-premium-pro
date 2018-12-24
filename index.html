@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CatClicker</title>
+</head>
+
+<body>
+  <main id="maincontent">
+      <div class= 'header'>
+          <h1>Cat Clicker</h1>
+          <p>Click on the cat's name to display the cat's image.</p>
+      </div>
+
+      <div class="catContainer"> 
+          <ul id=cat-list></ul>
+          <div id="cat">
+            <h2 id="cat-name"></h2>
+            <div id=cat-count></div>
+            <img id="cat-img" src="" alt="cute cat">
+          </div>
+      </div>
+
+      <div class="admin">
+          <button id="adminBtn">Admin</button>
+
+          <div id=admin-view>
+        
+            <label>  Name:    <input type="text"   id="admin-name"   name="admin-name">   </label>
+            <label>  Url:<input type="url" id="admin-url" name="admin-url"></label>
+            <label>  Clicks: <input type="number" id="admin-number" name="admin-number"> </label> 
+            
+           
+            <button id="admin-save" >Save</button>
+            <button id="admin-cancel">Cancel</button>
+          </div>
+      </div>
+
+  </main>
+
+</body>
+<!-- <script src="js/app.js" ></script> -->
+<script src="js/view.js" ></script>
+<script src="js/model.js" ></script>
+<script src="js/controller.js" ></script>
+
+</html>
