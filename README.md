@@ -42,7 +42,7 @@ Udacity's FEND Project/Exercise Cat clicker as part of JS Design Pattern course 
 	- the cat's name
 	- a picture of the cat
 	- text showing the number of clicks
-- An admin area, the following should be displayed:
+- In the admin area, the following should be displayed:
     - the cat's name
     - text showing the URL of cat's image
     - text showing the number of clicks
@@ -53,7 +53,7 @@ Udacity's FEND Project/Exercise Cat clicker as part of JS Design Pattern course 
 ### Interaction
 - When a cat name is clicked in the list, the cat display area should update to show the data for the selected cat.
 - The number of clicks in the cat area should be unique to each cat, and should increment when the cat's picture is clicked.
-- The admin area should be hidden by default, and changes visibility by click
+- The admin area should be hidden by default, and changes visibility by click.
 - Push save button can update the current cat's info and hide the admin panel.
 - push cancel button can hide the admin panel.
 
